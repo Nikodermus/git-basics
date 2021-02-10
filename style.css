@@ -9,16 +9,37 @@ section {
 	box-shadow: 0 4px 20px #e4e4e4, 0 2px 8px #bfbfbf, 0 1px 4px gray;
 	padding: 20px;
 	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 h1 {
 	text-align: center;
+	width: 100%;
 }
 section > div {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	width: 73%;
 }
-p,
-img {
+section > div > p,
+section > div > img {
 	width: 48%;
+}
+section > div > p {
+	font-size: 14px;
+}
+section > aside {
+	width: 25%;
+	height: 400px;
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section > aside > h3 {
+	color: #a05709;
+	text-shadow: 0 2px 4px #d87070;
 }
