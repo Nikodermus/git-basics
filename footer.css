@@ -1,0 +1,35 @@
+footer {
+    background: fuchsia;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+footer h2{
+    font-size: 2em;
+}
+
+ol,
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    background-color:var(--dk-blue);
+    border-color: indigo;
+    border-width: 6px;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
